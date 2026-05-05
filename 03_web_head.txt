@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Vary: Origin
+Content-Type: text/html
+Cache-Control: no-cache
+Etag: W/"2e1-LYbXe44WyJmMDNYCb7H6CFvcbcA"
+Date: Sun, 19 Apr 2026 09:26:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 737
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+

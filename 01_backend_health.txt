@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+ETag: W/"36-KB48DsER8x3kU9x5GW7FGtMsie4"
+Date: Sun, 19 Apr 2026 09:26:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"status":"OK","timestamp":"2026-04-19T09:26:00.742Z"}

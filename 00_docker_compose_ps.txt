@@ -1,0 +1,5 @@
+NAME                 IMAGE                COMMAND                  SERVICE     CREATED          STATUS                                     PORTS
+followme_ai_engine   followme-ai-engine   "uvicorn app.main:ap…"   ai-engine   15 seconds ago   Up Less than a second (health: starting)   0.0.0.0:8001->8001/tcp, [::]:8001->8001/tcp
+followme_backend     followme-backend     "docker-entrypoint.s…"   backend     15 seconds ago   Up Less than a second                      0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+followme_db          postgres:15-alpine   "docker-entrypoint.s…"   db          15 seconds ago   Up 10 seconds (healthy)                    0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+followme_web         followme-web         "docker-entrypoint.s…"   web         13 seconds ago   Up Less than a second                      0.0.0.0:5173->5173/tcp, [::]:5173->5173/tcp
